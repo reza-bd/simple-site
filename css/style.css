@@ -1,0 +1,150 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Yeseva+One&display=swap');
+/* var::: */
+:root{
+    --yeseva : 'Yeseva One', cursive;
+    --poppins : 'Poppins', sans-serif;
+    --lobster: 'Lobster', cursive;
+}
+/* flex */
+.header{
+    display: flex;
+    padding: 0 10%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 ;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+/* common */
+body{
+    font-family: var(--poppins);
+    margin: 0px;
+}
+h1{
+    font-family: var(--yeseva);
+    font-size: 60px;
+    line-height: 60px;
+}
+h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+}
+h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background-color: #FF5959;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+/* unique */
+.color-text{
+    color: #FFAD5A;
+}
+.half-width{
+    width: 50%;
+    padding-left:5%;
+}
+.top-part{
+    margin-top: 8%;
+}
+.top-title{
+    border-left: 4px solid #FF5959;
+    padding: 0px;
+    margin: 0;
+}
+.card-box{
+    width: 360px;
+    height: 376px;
+    margin: 0 20px;
+}
+.box-1{
+    background-color: #defafde8;
+    padding: 2px 10px 20px 20px;
+    border-radius: 25px;
+}
+.box-2{
+    background-color: #fdecec;
+    padding: 2px 10px 20px 20px;
+    border-radius: 25px;
+}
+.box-3{
+    background-color: #fcf3dc;
+    padding: 2px 10px 20px 20px;
+    border-radius: 25px;
+}
+.half-contain{
+    width: 50%;
+}
+.contain-p1{
+    margin-right: 10%;
+}
+.contain-p2{
+    margin-left: 10%;
+}
+footer{
+    font-family: var(--lobster);
+    height: 177px;
+    background-color: black;
+    
+}
+footer h6{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 20px 0;
+    padding-top: 50px;
+}
+.footer-color {
+    color: red;
+}
+footer p {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+/* img */
+.top-photo {
+    width: 426px;
+    /* height: 623px; */
+    /* top: -80px; */
+}
+.card-img{
+    height: 141px;
+    width: 141px;
+}
+.part-img{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    margin-left: 25%;
+}
